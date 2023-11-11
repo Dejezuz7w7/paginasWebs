@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Equipos VCR - Maquinaría y transporte pesado</title>
+
+    <!-- Links css, iconos y slider -->
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <div class="navbar__cont container">
+          <figure class="navbar__logo">
+            <img src="./assets/logo.webp" alt="Logo equipos VCR" />
+          </figure>
+
+          <div class="navbar__item">
+            <i class="bx bx-map-alt bx-sm"></i>
+
+            <div class="navbar__info">
+              <h3>Visitanos</h3>
+              <p>Carrera 22 #17-37 Barranquilla</p>
+            </div>
+          </div>
+          <div class="navbar__item">
+            <i class="bx bx-envelope bx-sm"></i>
+
+            <div class="navbar__info">
+              <h3>Contáctanos</h3>
+              <p>comercial@equiposvcr.com</p>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <nav class="subnav">
+        <div class="subnav__cont container">
+          <div class="menu">
+            <i class="bx bx-menu bx-md"></i>
+          </div>
+
+          <div class="subnav__links">
+            <a href="#">Inicio</a>
+            <a href="#">Conócenos</a>
+            <a href="#">Servicios</a>
+            <a href="#">Proyectos</a>
+          </div>
+
+          <div class="subnav__phone">
+            <i class="bx bx-phone bx-sm"></i>
+
+            <div class="phone__numbers">
+              <h3>Teléfonos:</h3>
+              <p>3004872862 - 3002277552</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="subnav__links--phone">
+          <a href="#" class="link--phone">Inicio</a>
+          <a href="#" class="link--phone">Conócenos</a>
+          <a href="#" class="link--phone">Servicios</a>
+          <a href="#" class="link--phone">Proyectos</a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section class="hero">
+        <div class="hero__cont container">
+          <h3 class="hero__text">Expertos en operaciones portuarias</h3>
+          <h1 class="hero__title">Equipos VCR</h1>
+          <a href="#" class="button--yellow">Descubrir más</a>
+        </div>
+      </section>
+
+      <section class="card">
+        <div class="card__cont container">
+          <div class="card__info">
+            <div class="card__texts">
+              <h3>¿Quiénes somos?</h3>
+              <p>
+                Estamos constituidos desde el año 2014 en Barranquilla -
+                Atlántico, somos la solución a las necesidades del sector
+                portuario, Logístico, zona Franca e industriales en la costa
+                norte de Colombia.
+              </p>
+            </div>
+
+            <ul class="card__list">
+              <li class="list">Operador portuario</li>
+              <li class="list">Movilización de carga</li>
+              <li class="list">Manetenimiento mecánico</li>
+              <li class="list">Transporte terrestre nacional</li>
+            </ul>
+
+            <div class="card__options">
+              <div class="card__option">
+                <h3>Transporte y almacenamiento</h3>
+                <p>
+                  De todo tipo de carga general, de proyectos o contenedorizada.
+                </p>
+              </div>
+              <div class="card__option">
+                <h3>Servicio de Mantenimiento</h3>
+                <p>
+                  Mantenimiento de equipos de ízaje en la modalidad Outsourcing.
+                </p>
+              </div>
+            </div>
+
+            <a href="#" class="card__button">
+              Contáctanos
+              <i class="bx bxl-whatsapp bx-sm"></i>
+            </a>
+          </div>
+
+          <div class="card__image">
+            <div class="spray">
+              <img src="" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="brand">
+        <div class="brand__cont container">
+          <h3 class="brand__title">Preparados</h3>
+
+          <span>para <span class="yellow">todo</span></span>
+        </div>
+      </section>
+
+      <section class="team">
+        <div class="team__cont container">
+          <div class="team__info">
+            <h3>Conoce nuestros</h3>
+            <h1>Equipos calificados</h1>
+          </div>
+
+          <div class="team__cards">
+            <div class="team__card">
+              <div class="team__image1"></div>
+              <div class="team__card--info">
+                <h3>Camión grua</h3>
+                <p>Capacidad de ízaje de 18 Ton</p>
+              </div>
+            </div>
+            <div class="team__card">
+              <div class="team__image2"></div>
+              <div class="team__card--info">
+                <h3>Man lift</h3>
+                <p>Longitud de hasta 23 Metros</p>
+              </div>
+            </div>
+            <div class="team__card">
+              <div class="team__image3"></div>
+              <div class="team__card--info">
+                <h3>Montacargas</h3>
+                <p>Capacidad desde 2,5 hasta 25 Ton</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="slider">
+        <div class="slider__cont container mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide slider-img">
+              <img src="./assets/slider/asset1.webp" />
+            </div>
+            <div class="swiper-slide slider-img">
+              <img src="./assets/slider/asset2.webp" />
+            </div>
+            <div class="swiper-slide slider-img">
+              <img src="./assets/slider/asset3.webp" />
+            </div>
+            <div class="swiper-slide slider-img">
+              <img src="./assets/slider/asset4.webp" />
+            </div>
+            <div class="swiper-slide slider-img">
+              <img src="./assets/slider/asset5.webp" />
+            </div>
+            <div class="swiper-slide slider-img">
+              <img src="./assets/slider/asset1.webp" />
+            </div>
+            <div class="swiper-slide slider-img">
+              <img src="./assets/slider/asset2.webp" />
+            </div>
+            <div class="swiper-slide slider-img">
+              <img src="./assets/slider/asset5.webp" />
+            </div>
+            <div class="swiper-slide slider-img">
+              <img src="./assets/slider/asset4.webp" />
+            </div>
+            <div class="swiper-slide slider-img">
+              <img src="./assets/slider/asset3.webp" />
+            </div>
+            <div class="swiper-slide slider-img">
+              <img src="./assets/slider/asset2.webp" />
+            </div>
+            <div class="swiper-slide slider-img">
+              <img src="./assets/slider/asset1.webp" />
+            </div>
+            <div class="swiper-slide slider-img">
+              <img src="./assets/slider/asset5.webp" />
+            </div>
+            <div class="swiper-slide slider-img">
+              <img src="./assets/slider/asset4.webp" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <section class="maps" id="map"></section>
+
+    <footer class="footer">
+      <div class="footer__cont container">
+        <p>Designed by: Keyner de Ávila</p>
+        <h3 class="footer__title">VC<span>R</span></h3>
+
+        <div class="footer__links">
+          <div class="footer__link">
+            <h3>Inicio</h3>
+            <a href="#">Contacto</a>
+            <a href="#">¿Quiénes somos?</a>
+            <a href="#">Nuestras empresas</a>
+          </div>
+          <div class="footer__link">
+            <h3>Cosas importantes</h3>
+            <a href="#">Contacto</a>
+            <a href="#">¿Quiénes somos?</a>
+            <a href="#">Nuestras empresas</a>
+          </div>
+          <div class="footer__link">
+            <h3>Todo de nosotros</h3>
+            <a href="#">Contacto</a>
+            <a href="#">¿Quiénes somos?</a>
+            <a href="#">Nuestras empresas</a>
+          </div>
+          <div class="footer__link">
+            <h3>Preguntas frecuentes</h3>
+            <a href="#">Contacto</a>
+            <a href="#">¿Quiénes somos?</a>
+            <a href="#">Nuestras empresas</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Enlace a el JavaScript principal y al slider -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
+    <script src="./javascript/app.js"></script>
+  </body>
+</html>
